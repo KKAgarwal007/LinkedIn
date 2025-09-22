@@ -1,6 +1,6 @@
 import React, { createContext } from 'react'
 export const authDataContext = createContext();
-let serverUrl = "http://localhost:8000"
+let serverUrl = "https://linkedin-backend-q389.onrender.com"
 let value = {
     serverUrl
 }
