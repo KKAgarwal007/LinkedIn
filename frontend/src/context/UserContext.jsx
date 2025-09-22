@@ -3,7 +3,7 @@ import { authDataContext } from './AuthContext';
 import axios from 'axios';
 import {useNavigate} from "react-router-dom";
 import {io} from "socket.io-client";
-export let socket = io("http://localhost:8000")
+export let socket = io("https://linkedin-backend-q389.onrender.com")
 
 export const UserContextData = createContext();
 
